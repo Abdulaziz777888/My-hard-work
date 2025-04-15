@@ -191,4 +191,98 @@ line-height: 100%;
 letter-spacing: 0%;
 }
 
+.midl_3 > p {
+    font-family: Montserrat;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin-left: 20px;
+margin-top: 50px;
+}
+
+.midl_3 > h2 {
+    font-family: Montserrat;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin-left: 40px;
+margin-top: 10px;
+}
+
+
+.midl_4 {
+    width: 97%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 30px;
+
+}
+
+.house_info {
+    width: 680px;
+height: 450px;
+border: 4px solid #EC9015;
+}
+
+.house_info > p {
+    font-family: Open Sans;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+margin-top: 40px;
+margin-left: 80px;
+
+}
+
+.left_and_right {
+    display: flex;
+    gap: 70px;
+    color: white;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: Open Sans;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.border {
+    width: 180px;
+height: 60px;
+border: 2px solid #EC9015;
+border-radius: 5px;
+border-width: 2px;
+padding-top: 15px;
+padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .midl_4 {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .midl_4 > img {
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    .midl_4 > .house_info_2 {
+        margin-top: 20px;
+        margin-left: 68px;
+    }
+
+    .midl_4 > .house_info_1 { 
+        margin-top: 20px;
+        margin-left: 68px;
+    }
+
+
+}  
+    
 
